@@ -16,7 +16,58 @@
             }
         ]
     },
-    "carta":{
-        
+    
+    "cartas": {
+        "cardcontent": [
+        {
+            "header": "Basic",
+            "Body": {
+            "Border": {
+                "border_red": "<div class='card mb-4 rounded-3 shadow-sm borde'>",
+                "background": "<div class='card-header py-3'>",
+                "button": "'w-100 btn btn-lg btn-outline-danger'"
+            },
+            "precio": "<h1 class='card-title pricing-card-title'>COP16,900<small class='text-body-secondary fw-light'></small></h1>",
+            "servicios": {
+                "device": "4 different devices",
+                "support": "Email support",
+                "Help": "Help center access"
+            }
+            }
+        },
+        {
+            "header": "Standard",
+            "Body": {
+            "Border": {
+                "border_red": "<div class='card mb-4 rounded-3 shadow-sm'>",
+                "background": "<div class='card-header py-3'>",
+                "button": "'w-100 btn btn-lg btn-danger'"
+            },
+            "precio": "<h1 class='card-title pricing-card-title'>COP<small class='text-body-secondary fw-light border-danger'>26,900</small></h1>",
+            "servicios": {
+                "device": "2 different devices",
+                "support": "Priority email support",
+                "Help": "Help center access"
+            }
+            }
+        },
+        {
+            "header": "Premium",
+            "Body": {
+            "Border": {
+                "border_red": "<div class='card mb-4 rounded-3 shadow-sm border-danger'>",
+                "background": "<div class=' py-3 text-bg-danger border-danger'>",
+                "button": "'w-100 btn btn-lg btn-danger'"
+            },
+            "precio": "<h1 class='card-title pricing-card-title'>COP<small class='text-body-secondary fw-light'>38,900</small></h1>",
+            "servicios": {
+                "device": "4 different devices",
+                "support": "Priority email support",
+                "Help": "Help center access"
+            }
+            }
+        }
+        ]
     }
+
 }
