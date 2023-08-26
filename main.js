@@ -1,18 +1,15 @@
-const path = "config";
-
-let construirEncabezado = async()=>{
-    let peticion = await fetch(`${path}.json`);
+const path = "config"
+let construirEncabezado =async()=>{
+    let peticion = await fetch(`${path}.json `);
     let res = await peticion.json();
-    let selecion =  document.querySelector("#myJsonSection");
-    selecion.insertAdjacentHTML("beforeend",/*html*/`
-    <h1 class="display-4 fw-normal text-body-emphasis">${res.section.titulo}</h1>
-        <p class="fs-5 text-body-secondary">
-            ${res.section.parrafo.map((value)=>/*html*/`
-            ${value.image}${value.text}<br>`).join(" ")}
-        </p>
-
-    `);
+    let Selecion = document.querySelector("#myjsonSection");
+    Selecion.insertAdjacentHTML("beforeend",/*html*/ `
+    <h1 class="display-6 fw-normal text-body-emphasis d-flex justify-content-start">${res.section.titulo}</h1>
+        ${res.section.parrafo.map((value)=>/*html*/` 
+        <p class="fs-6 text-body-secondary d-flex justify-content-start">${value.icon}${value.text}</p>`).join(" ")}
+    `)
 }
+
 /**Div contendores */ 
 let construirCartas = async () => {
     let peticion = await fetch(`${path}.json`);
@@ -68,7 +65,7 @@ let construirTabla = async()=>{
             </table>
         </div>
     `)}
-    let construirFooter =async()=>{
+    let construirFooter = async()=>{
         let peticion = await fetch(`${path}.json `);
         let res = await peticion.json();
         let Selecion = document.querySelector("#Footer");

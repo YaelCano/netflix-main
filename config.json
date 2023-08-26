@@ -1,20 +1,21 @@
 {
     "section":{
-        "titulo":"Select your plan",
+        "titulo":"Choose the plan that’s right for you",
         "parrafo":[
             {
-                "image":"<td><svg class='bi' width='24' height='24'><use xlink:href='#check'/></svg>",
-                "text":"Watch all you want. Ad-free."
+                "icon": "<svg class='bi bi-lightning' width='24' height='24' class=''><use xlink:href='#check'/></svg> "   , 
+                "text": "Watch all you want. Ad-free."
             },
             {
-                "image":"<td><svg class='bi' width='24' height='24'><use xlink:href='#check'/></svg>",
-                "text":"Recommendations just for you."
+                "icon": "<svg class='bi bi-lightning' width='24' height='24' class='''><use xlink:href='#check'/></svg> "  , 
+                "text": "Recommendations just for you."
             },
             {
-                "image":"<td><svg class='bi' width='24' height='24'><use xlink:href='#check'/></svg>",
-                "text":"Change or cancel your plan anytime."
+                "icon": "<svg class='bi bi-lightning' width='24' height='24' class='''><use xlink:href='#check'/></svg> "  , 
+                "text": "Change or cancel your plan anytime."
             }
         ]
+        
     },
     
     "cartas":{
