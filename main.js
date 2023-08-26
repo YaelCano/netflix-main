@@ -13,7 +13,7 @@ let construirEncabezado =async()=>{
 let construirCartas = async () => {
     let peticion = await fetch(`${path}.json`);
     let res = await peticion.json();
-    let Selecion = document.querySelector("#cart");
+    let Selecion = document.querySelector("#cartas");
     Selecion.insertAdjacentHTML("beforeend", /*html*/ `
         ${res.cartas.cardcontent.map((value) => /*html*/ `
             <div class="col">
