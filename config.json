@@ -1,0 +1,136 @@
+{
+    "section":{
+        "titulo":"Select your plan",
+        "parrafo":[
+            {
+                "image":"<td><svg class='bi' width='24' height='24'><use xlink:href='#check'/></svg>",
+                "text":"Watch all you want. Ad-free."
+            },
+            {
+                "image":"<td><svg class='bi' width='24' height='24'><use xlink:href='#check'/></svg>",
+                "text":"Recommendations just for you."
+            },
+            {
+                "image":"<td><svg class='bi' width='24' height='24'><use xlink:href='#check'/></svg>",
+                "text":"Change or cancel your plan anytime."
+            }
+        ]
+    },
+    
+    "cartas":{
+        "cardcontent":[
+            {
+                "header": "Basic",
+                "Body":{
+                    "Border":{
+                        "border_red":"<div class='card mb-4 rounded-0 shadow-sm'>",
+                        "background":"<div class='card-header py-3'>",
+                        "button":"'w-100 btn btn-lg btn-outline-danger rounded-0'"
+                    },
+                    "precio": "<h1 class='card-title pricing-card-title'><small class='text-body-secondary fw-light'>COP</small>16,900</h1>",
+                    "servicios":{
+                        "device":"1 devices",
+                        "support":"Priority email support",
+                        "Help":"Help center support"
+                    }
+                }
+            },
+            {
+                "header": "Standard",
+                "Body":{
+                    "Border":{
+                        "border_red":"<div class='card mb-4 rounded-0 shadow-sm'>",
+                        "background":"<div class='card-header py-3'>",
+                        "button":"'w-100 btn btn-lg btn-danger rounded-0'"
+                    },
+                    "precio": "<h1 class='card-title pricing-card-title'><small class='text-body-secondary fw-light'>COP</small>26,900</h1>",
+                    "servicios":{
+                        "device":"2 different devices",
+                        "support":"Priority email support",
+                        "Help":"Help center access"
+                    }
+                }
+            },
+            {
+                "header": "Premium",
+                "Body":{
+                    "Border":{
+                        "border_red":"<div class='card mb-4 rounded-0 shadow-sm border-danger'>",
+                        "background":"<div class=' py-3 text-bg-danger border-danger'>",
+                        "button":"'w-100 btn btn-lg btn-danger rounded-0'"
+                    },
+                    "precio": "<h1 class='card-title pricing-card-title'><small class='text-body-secondary fw-light'>COP</small>38,900</h1>",
+                    "servicios":{
+                        "device":"4 different devices",
+                        "support":"Priority email support",
+                        "Help":"Help center access"
+                    }
+                }
+            }
+        ]
+        },
+    "Tabla":{
+        "titulo":"Compare plans",
+        "thead": {
+            "columna1":"<th style='width: 34%;'></th>",
+            "columna2":"<th style='width: 34%;'>Basic</th>",
+            "columna3":"<th style='width: 34%;'>Standard</th>",
+            "columna4":"<th style='width: 34%;class='text-danger'>Premium</th>"
+            },
+        "tbody":[
+            {
+                "columna1":"Video quality",
+                "columna2":"Good",
+                "columna3":"Better",
+                "columna4":"Optimal"
+            },
+            {
+                "columna1":"Resolution",
+                "columna2":"720p",
+                "columna3":"1080p",
+                "columna4":"4K+HDR"
+            },
+            {
+                "columna1":"Watch on your TV, computer, mobile phone and tablet",
+                "columna2":"<svg class='bi bi-lightning ' width='24' height='24' class=''><use xlink:href='#check' /></svg>",
+                "columna3":"<svg class='bi bi-lightning ' width='24' height='24' class=''><use xlink:href='#check' /></svg>",
+                "columna4":"<svg class='bi bi-lightning ' width='24' height='24' class=''><use xlink:href='#check' /></svg>"
+            }
+            ]
+            },
+    "Footer":{
+        "copyright":{
+            "icon":"assets/brand/netflix-1-logo-svgrepo-com.svg",
+            "text":" Campuslands 2023 Bucaramanga"
+        },
+        "terms":[
+            {
+                "title":"Features",
+                "lista":{
+                    "i1":"Cool stuff",
+                    "i2":"Featured Films",
+                    "i3":"Exciting Series",
+                    "i4":"Cinematic Resources"
+                }
+            },
+            {
+                "title":"Resources",
+                "lista":{
+                    "i1":"Resource",
+                    "i2":"Movie",
+                    "i3":"Series",
+                    "i4":"Tv Shows"
+                }
+            },
+            {
+                "title":"About Us",
+                "lista":{
+                    "i1":"Team",
+                    "i2":"Locations",
+                    "i3":"Privacy",
+                    "i4":"Terms"
+                }
+            }
+        ]
+    }
+}
