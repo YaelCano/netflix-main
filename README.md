@@ -1,7 +1,7 @@
  1. In the config.json file, we define the data for the header, cards, table, and footer sections of the website. 
 
 ```json
-
+/*HTML*/
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="auto">
 
