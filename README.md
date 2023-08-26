@@ -1,10 +1,7 @@
- ## NETFLIX LANDING PAGE
+ 1. In the config.json file, we define the data for the header, cards, table, and footer sections of the website. 
 
-### Step 1: Create the HTML file
+```json
 
-Create a file named `index.html` and add the basic HTML structure.
-
-```html
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="auto">
 
@@ -29,13 +26,9 @@ Create a file named `index.html` and add the basic HTML structure.
 
 </body>
 </html>
-```
+Step 2: Add the header
+Add the header section to the index.html file.
 
-### Step 2: Add the header
-
-Add the header section to the `index.html` file.
-
-```html
 <header>
       <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
           <img src="assets/brand/Netflix-Logo.wine.svg" alt="" width="190" height="50">
@@ -47,4 +40,49 @@ Add the header section to the `index.html` file.
         </nav>
       </div>
       <div
+{
+    "section": {
+        "titulo": "Choose the plan that’s right for you",
+        "parrafo": [
+            {
+                "icon": "<svg class='bi bi-lightning' width='24' height='24' class=''><use xlink:href='#check'/></svg> ",
+                "text": "Watch all you want. Ad-free."
+            },
+            {
+                "icon": "<svg class='bi bi-lightning' width='24' height='24' class='''><use xlink:href='#check'/></svg> ",
+                "text": "Recommendations just for you."
+            },
+            {
+                "icon": "<svg class='bi bi-lightning' width='24' height='24' class='''><use xlink:href='#check'/></svg> ",
+                "text": "Change or cancel your plan anytime."
+            }
+        ]
+
+    },
+
+    "cartas": {
+        "cardcontent": [
+            {
+                "header": "Basic",
+                "Body": {
+                    "Border": {
+                        "border_red": "<div class='card mb-4 rounded-0 shadow-sm'>",
+                        "background": "<div class='card-header py-3'>",
+                        "button": "'w-100 btn btn-lg btn-outline-danger rounded-0'"
+                    },
+                    "precio": "<h1 class='card-title pricing-card-title'><small class='text-body-secondary fw-light'>COP</small>16,900</h1>",
+                    "servicios": {
+                        "device": "1 devices",
+                        "support": "Priority email support",
+                        "Help": "Help center support"
+                    }
+                }
+            },
+            {
+                "header": "Standard",
+                "Body": {
+                    "Border": {
+                        "border_red": "<div class='card mb-4 rounded-0 shadow-sm'>",
+                        "background": "<div class='card-header py-3'>",
+                        "button": "'w-100 btn btn-lg btn
 
