@@ -10,13 +10,12 @@ let construirEncabezado =async()=>{
     `)
 }
 
-/**Div contendores */ 
 let construirCartas = async () => {
     let peticion = await fetch(`${path}.json`);
     let res = await peticion.json();
     let Selecion = document.querySelector("#cart");
     Selecion.insertAdjacentHTML("beforeend", /*html*/ `
-        ${res.cart.cardcontent.map((value) => /*html*/ `
+        ${res.cartas.cardcontent.map((value) => /*html*/ `
             <div class="col">
                 ${value.Body.Border.border_red}
                     ${value.Body.Border.background}
